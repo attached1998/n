@@ -1,7 +1,7 @@
 ﻿///@codeandaxsel
 <?php
 ob_start();
-define('API_KEY','token');
+define('API_KEY','241106362:AAHHX_C7Cj00AoRTAusyqAZGriS5nv6y8lQ');
 $admin = "238773538";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
